@@ -1,0 +1,49 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: relative;
+
+}
+
+.topnav > a {
+    flex-grow: 1;
+    /* border: 10px solid black; */
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    position: relative;
+    z-index: 1;
+}
+
+.blue {
+    background-color: #3b8183;
+}
+
+.red {
+    background-color: #ed303c;
+}
+
+#triangle-parent {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    background-color: transparent;
+    justify-content: center;
+    height: 100vh;
+    z-index: 2;
+    position: relative;
+
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 100vh solid transparent;
+    border-right: 100vh solid transparent;
+    border-bottom: 100vh solid black;
+    position: relative;
+    z-index: 2;
+}
